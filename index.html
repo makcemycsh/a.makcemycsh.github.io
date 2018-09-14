@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Задание 2 — сверстать макет</title>
+  <link rel="icon" type="image/png" href="assets/favicon/favicon-16.png" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+</head>
+<body>
+<div class="b-page">
+<div class="b-head js-head">
+  <div class="b-head__wrap mod-b-inner">
+    <a class="b-head__logo" href="#"></a>
+    <div class="b-head__menu">
+      <div class="b-head__trigger js-menu-bar">
+        <div class="b-bars"></div>
+      </div>
+      <div class="b-head__nav-wrap">
+        <nav>
+          <a href="#" class="mod-active">Сводка</a>
+          <a href="#">Устройства</a>
+          <a href="#">Сценарии</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="b-content mod-b-inner">
+  <div class="b-content__line">
+    <div class="b-content__col">
+      <section class="b-content__main">
+        <header class="b-content__title mod-mob-hidden">
+          <h2>Главное</h2>
+        </header>
+        <div class="b-content__inner">
+          <div class="b-info">
+            <div class="b-info__contentl">
+              <div class="b-info__title">
+                <h3>Привет, Геннадий!</h3>
+                <p>Двери и окна закрыты, сигнализация включена.</p>
+              </div>
+              <div class="b-info__values">
+                <div class="b-temp">
+                  <span class="b-temp__title">Дома</span>
+                  <span class="b-temp__value">+23</span>
+                </div>
+                <div class="b-temp">
+                  <span class="b-temp__title">За окном</span>
+                  <span class="b-temp__value">+19 <i class="ico mod-cloud"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="b-info__tabs">
+              <div class="b-info__tabs-wrap js-tabs">
+                <div class="b-tab">
+                  <i class="ico mod-temp-1"></i>
+                  <div class="b-tab__content">
+                    <p class="b-tab__title">
+                      Philips Cooler
+                    </p>
+                    <p class="b-tab__text">
+                      Начнет охлаждать в 16:30
+                    </p>
+                  </div>
+                </div>
+                <div class="b-tab">
+                  <i class="ico mod-sun-1"></i>
+                  <div class="b-tab__content">
+                    <p class="b-tab__title">
+                      Xiaomi Yeelight LED Smart Bulb
+                    </p>
+                    <p class="b-tab__text">
+                      Включится в 17:00
+                    </p>
+                  </div>
+                </div>
+                <div class="b-tab">
+                  <i class="ico mod-temp-1"></i>
+                  <div class="b-tab__content">
+                    <p class="b-tab__title">
+                      Philips Cooler
+                    </p>
+                    <p class="b-tab__text">
+                      Начнет охлаждать в 16:30
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="b-info__arrow is-show js-arrow-show">
+                <i class="b-arrow mod-arrow-top"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="b-content__col">
+      <section class="b-content__main">
+        <header class="b-content__title">
+          <h2>Избранные сценарии</h2>
+          <div class="b-content__arrows js-arrows" data-scroll="b-scenarios__wrap">
+            <button class="mod-disabled js-arrow-l"><i class="b-arrow mod-arrow-left"></i></button>
+            <button class="js-arrow-r"><i class="b-arrow mod-arrow-right"></i></button>
+          </div>
+        </header>
+        <div class="b-content__inner">
+          <div class="b-scenarios">
+            <div class="b-scenarios__wrap js-scroll">
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Выключить весь свет в доме и во дворе
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Набрать горячую ванну
+                  </p>
+                  <p class="b-tab__text">
+                    Начнётся в 18:00
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-clock"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Я ухожу
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Сделать пол тёплым во всей квартире
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Включить свет в&nbsp;коридоре
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Выключить весь свет в доме и во дворе
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Набрать горячую ванну
+                  </p>
+                  <p class="b-tab__text">
+                    Начнётся в 18:00
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-clock"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Я ухожу
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Сделать пол тёплым во всей квартире
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Включить свет в&nbsp;коридоре
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Выключить весь свет в доме и во дворе
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Набрать горячую ванну
+                  </p>
+                  <p class="b-tab__text">
+                    Начнётся в 18:00
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-clock"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Я ухожу
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Сделать пол тёплым во всей квартире
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Включить свет в&nbsp;коридоре
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Выключить весь свет в доме и во дворе
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Набрать горячую ванну
+                  </p>
+                  <p class="b-tab__text">
+                    Начнётся в 18:00
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-clock"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Я ухожу
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Сделать пол тёплым во всей квартире
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Включить свет в&nbsp;коридоре
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Выключить весь свет в доме и во дворе
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Набрать горячую ванну
+                  </p>
+                  <p class="b-tab__text">
+                    Начнётся в 18:00
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-clock"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Я ухожу
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Сделать пол тёплым во всей квартире
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Включить свет в&nbsp;коридоре
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Выключить весь свет в доме и во дворе
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Набрать горячую ванну
+                  </p>
+                  <p class="b-tab__text">
+                    Начнётся в 18:00
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-clock"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Я ухожу
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-temp-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Сделать пол тёплым во всей квартире
+                  </p>
+                </div>
+              </div>
+              <div class="b-tab mod-height-100">
+                <i class="ico mod-sun-2"></i>
+                <div class="b-tab__content">
+                  <p class="b-tab__title">
+                    Включить свет в&nbsp;коридоре
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="b-content__line">
+    <section class="b-content__main">
+      <header class="b-content__title">
+        <h2>Избранные устройства</h2>
+        <div class="b-tabs js-cat js-change-active">
+          <span class="b-tabs__item is-active">Все</span>
+          <span data-cat='1' class="b-tabs__item">Кухня</span>
+          <span data-cat='2' class="b-tabs__item">Зал</span>
+          <span data-cat='3' class="b-tabs__item">Лампочки</span>
+          <span data-cat='4' class="b-tabs__item">Камеры</span>
+        </div>
+        <div class="b-content__arrows js-arrows" data-scroll="b-favorites__wrap">
+          <button class="mod-disabled js-arrow-l"><i class="b-arrow mod-arrow-left"></i></button>
+          <button class="js-arrow-r"><i class="b-arrow mod-arrow-right"></i></button>
+        </div>
+      </header>
+      <div class="b-content__inner">
+        <div class="b-favorites">
+          <div class="b-favorites__wrap js-cat-items js-tabs">
+            <div class="b-tab js-popup-open"
+                 data-cat='1'
+                 data-val='+24'
+                 data-popup-class='b-popup-circle-reg'>
+              <i data-active='1' class="ico mod-temp"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="Xiaomi Yeelight LED Smart Bulb"></p>
+                <p class="b-tab__text" data-status="Включено"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='2'
+                 data-val='+18'
+                 data-popup-class='b-popup-temp-reg'>
+              <i data-active='0' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="D-Link Omna 180 Cam"></p>
+                <p class="b-tab__text" data-status="Включится в 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='3'
+                 data-popup-class='b-popup-light-reg'>
+              <i data-active='1' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="Elgato Eve Degree Connected"></p>
+                <p class="b-tab__text" data-status="Выключено до 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='4'
+                 data-popup-class='b-popup-light-reg'>
+              <i data-active='0' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="LIFX Mini Day & Dusk A60 E27"></p>
+                <p class="b-tab__text" data-status="Выключено в 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='1'
+                 data-val='+10'
+                 data-popup-class='b-popup-circle-reg'>
+              <i data-active='1' class="ico mod-temp"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="Xiaomi Yeelight LED Smart Bulb"></p>
+                <p class="b-tab__text" data-status="Включено"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='2'
+                 data-val='+18'
+                 data-popup-class='b-popup-temp-reg'>
+              <i data-active='0' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="D-Link Omna 180 Cam"></p>
+                <p class="b-tab__text" data-status="Включится в 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='3'
+                 data-popup-class='b-popup-light-reg'>
+              <i data-active='1' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="Elgato Eve Degree Connected"></p>
+                <p class="b-tab__text" data-status="Выключено до 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='4'
+                 data-popup-class='b-popup-light-reg'>
+              <i data-active='0' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="LIFX Mini Day & Dusk A60 E27"></p>
+                <p class="b-tab__text" data-status="Выключено в 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='1'
+                 data-val='+12'
+                 data-popup-class='b-popup-circle-reg'>
+              <i data-active='1' class="ico mod-temp"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="Xiaomi Yeelight LED Smart Bulb"></p>
+                <p class="b-tab__text" data-status="Включено"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='2'
+                 data-val='+17'
+                 data-popup-class='b-popup-temp-reg'>
+              <i data-active='0' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="D-Link Omna 180 Cam"></p>
+                <p class="b-tab__text" data-status="Включится в 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='3'
+                 data-popup-class='b-popup-light-reg'>
+              <i data-active='1' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="Elgato Eve Degree Connected"></p>
+                <p class="b-tab__text" data-status="Выключено до 17:00"></p>
+              </div>
+            </div>
+            <div class="b-tab js-popup-open"
+                 data-cat='4'
+                 data-popup-class='b-popup-light-reg'>
+              <i data-active='0' class="ico mod-sun"></i>
+              <div class="b-tab__content">
+                <p class="b-tab__title" data-title="LIFX Mini Day & Dusk A60 E27"></p>
+                <p class="b-tab__text" data-status="Выключено в 17:00"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<div class="b-footer mod-b-inner">
+ <span class="b-footer__menu">
+  <a href="#">Помощь</a>
+  <a href="#">Обратная связь </a>
+  <a href="#">Разработчикам</a>
+  <a href="#">Условия использования</a>
+ </span>
+  <div class="copyright">
+    <span>© 2001–2017  ООО «Яндекс»</span>
+  </div>
+</div>
+</div>
+<!--Круглый регулятор -->
+<div class="b-popup b-popup-circle-reg">
+  <div class="b-popup__content">
+    <div class="b-popup__head">
+      <div>
+        <h4 class="b-popup__tite" data-title="Elgato Eve Degree Connected"></h4>
+        <p class="b-popup__status" data-status="Включено"></p>
+      </div>
+      <div class="b-popup__value">
+        <span data-val="+23"> <i class="ico mod-temp mod-large" data-active="0"></i></span>
+      </div>
+    </div>
+    <div class="b-popup__inner">
+      <div class="b-circle js-circle" data-min="-10" data-max="30">
+        <div class="b-circle__reg">
+          <svg>
+            <circle cx="110"
+                    cy="110"
+                    r="86px" class="circle mod-dash-gray"></circle>
+            <circle cx="110"
+                    cy="110"
+                    r="86px" class="circle mod-back-color js-circle-rotate" data-start="630" data-end="1040"></circle>
+            <circle cx="110"
+                    cy="110"
+                    r="86px" class="circle mod-dash-white"></circle>
+            <circle cx="110"
+                    cy="110"
+                    r="86px" class="circle mod-limit"></circle>
+          </svg>
+        </div>
+        <div class="b-circle__inner">
+          <div class="b-circle__dot js-circle-dot"></div>
+          <div class="b-circle__val js-circle-val" data-val="+24"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="b-popup__btns">
+    <button class="btn mod-color-yellow js-popup-close">Применить</button>
+    <button class="btn mod-color-white js-popup-close">Закрыть</button>
+  </div>
+</div>
+<!--Круглый регулятор END-->
+<!--Range регулятор температуры-->
+<div class="b-popup b-popup-temp-reg">
+  <div class="b-popup__content">
+    <div class="b-popup__head">
+      <div>
+        <h4 class="b-popup__tite" data-title="Elgato Eve Degree Connected"></h4>
+        <p class="b-popup__status" data-status="Включено"></p>
+      </div>
+      <div class="b-popup__value">
+        <span data-val="+23"> <i class="ico mod-temp mod-large" data-active="0"></i></span>
+      </div>
+    </div>
+    <div class="b-popup__inner">
+      <div class="b-tabs js-range-change js-change-active" data-range="js-range-1">
+        <span class="b-tabs__item is-active">Вручную</span>
+        <span data-value="-10" class="b-tabs__item">Холодно</span>
+        <span data-value="20" class="b-tabs__item">Тепло</span>
+        <span data-value="30" class="b-tabs__item">Жарко</span>
+      </div>
+      <div class="b-range mod-temp" data-min="-10" data-max="+30">
+        <input type="range" min="-10" max="30" step="1" class="js-range-1">
+      </div>
+    </div>
+  </div>
+  <div class="b-popup__btns">
+    <button class="btn mod-color-yellow js-popup-close">Применить</button>
+    <button class="btn mod-color-white js-popup-close">Закрыть</button>
+  </div>
+</div>
+<!--Range регулятор температуры END-->
+<!--Range регулятор света-->
+<div class="b-popup b-popup-light-reg">
+  <div class="b-popup__content">
+    <div class="b-popup__head">
+      <div>
+        <h4 class="b-popup__tite" data-title="Elgato Eve Degree Connected"></h4>
+        <p class="b-popup__status" data-status="Включено"></p>
+      </div>
+      <div class="b-popup__value">
+        <span> <i class="ico mod-sun mod-large" data-active="0"></i></span>
+      </div>
+    </div>
+    <div class="b-popup__inner">
+      <div class="b-tabs js-range-change js-change-active" data-range="js-range-2">
+        <span class="b-tabs__item is-active">Вручную</span>
+        <span data-value="-10" class="b-tabs__item">Дневной свет</span>
+        <span data-value="20" class="b-tabs__item">Вечерний свет</span>
+        <span data-value="30" class="b-tabs__item">Рассве</span>
+      </div>
+      <div class="b-range mod-sun">
+        <input type="range" min="-10" max="30" step="1" class="js-range-2">
+      </div>
+    </div>
+  </div>
+  <div class="b-popup__btns">
+    <button class="btn mod-color-yellow js-popup-close">Применить</button>
+    <button class="btn mod-color-white js-popup-close">Закрыть</button>
+  </div>
+</div>
+<!--Range регулятор света END-->
+<script src="scripts/jqvery/jquery-3.3.1.min.js"></script>
+<script src="scripts/main.js" defer></script>
+</body>
+</html>
